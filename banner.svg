@@ -1,96 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="710" viewBox="0 0 1000 710" role="img" aria-labelledby="t d">
-<title id="t">Davron (Mypatoff) - computer club tech support, self-taught developer</title>
-<desc id="d">5 years of tech support for computer clubs, 2-3 years of daily Linux and Windows. Speaks Uzbek (native), English (C1), Russian (B2). Comfortable with Go, HTML, CSS; learning Rust; basics of Python and C#. Projects: ClubControl, TimeTable, screentime, wasteless, online-shop-management. Builds with AI (Claude Code) as a coding partner.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0f19"/><stop offset="1" stop-color="#16193d"/></linearGradient>
-  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
-  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
-  <clipPath id="clipType"><rect class="typing" x="716" y="52" height="26" width="222"/></clipPath>
-  <clipPath id="card"><rect width="1000" height="710" rx="18"/></clipPath>
-</defs>
-<style>
-  text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
-  .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
-  .name { font-size: 58px; font-weight: 800; fill: url(#name); letter-spacing: -1px; }
-  .tag { font-size: 20px; fill: #c9d1d9; }
-  .handle { font-size: 14px; fill: #8b949e; }
-  .panel { fill: #ffffff; fill-opacity: .045; stroke: #ffffff; stroke-opacity: .1; }
-  .ptitle { font-size: 15px; font-weight: 700; fill: #e6edf3; letter-spacing: .3px; }
-  .big { font-size: 32px; font-weight: 800; fill: #e6edf3; }
-  .lbl { font-size: 12.5px; fill: #8b949e; }
-  .row { font-size: 14px; fill: #e6edf3; font-weight: 600; }
-  .lvl { font-size: 12.5px; fill: #8b949e; }
-  .sub { font-size: 11px; fill: #8b949e; letter-spacing: 1px; text-transform: uppercase; }
-  .pname { font-size: 13.5px; font-weight: 700; fill: #e6edf3; }
-  .pdesc { font-size: 12px; fill: #8b949e; }
-  .plang { font-size: 11px; fill: #58a6ff; }
-  .chip { font-size: 12.5px; font-weight: 600; }
-  .ach { font-size: 13.5px; fill: #e6edf3; }
-  .note { font-size: 13px; fill: #8b949e; }
-  .term { font-size: 14px; fill: #7ee787; }
-  .track { fill: #ffffff; fill-opacity: .09; }
-  .fade { animation: up .9s ease-out backwards; animation-delay: var(--d, 0s); }
-  .bar { transform-box: fill-box; transform-origin: left center; animation: grow 1.3s cubic-bezier(.2,.8,.2,1) backwards; animation-delay: var(--d, 0s); }
-  .glow1 { animation: drift1 16s ease-in-out infinite alternate; }
-  .glow2 { animation: drift2 19s ease-in-out infinite alternate; }
-  .typing { animation: type 9s infinite; }
-  .cur { fill: #7ee787; transform: translateX(220px); animation: blink 1s steps(1) infinite, curmove 9s infinite; }
-  @keyframes up { from { opacity: 0; transform: translateY(14px); } }
-  @keyframes grow { from { transform: scaleX(0); } }
-  @keyframes drift1 { to { transform: translate(160px, 70px); } }
-  @keyframes drift2 { to { transform: translate(-190px, -60px); } }
-  @keyframes type { 0% { width: 0; animation-timing-function: steps(25); } 35% { width: 222px; } 92% { width: 222px; } 100% { width: 0; } }
-  @keyframes curmove { 0% { transform: translateX(0); animation-timing-function: steps(26); } 35% { transform: translateX(220px); } 100% { transform: translateX(220px); } }
-  @keyframes blink { 50% { opacity: 0; } }
-</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" role="img" aria-label="Davron - computer club tech support, self-taught developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#38e8ff" stroke-opacity=".05"/>
+    </pattern>
+    <clipPath id="c1"><rect class="r1" x="40" y="74" height="30" width="88"/></clipPath>
+    <clipPath id="c2"><rect class="r2" x="40" y="114" height="30" width="572"/></clipPath>
+    <clipPath id="c3"><rect class="r3" x="40" y="154" height="30" width="460"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 18px; }
+    .label { fill: #38e8ff; font-size: 12px; letter-spacing: 2px; }
+    .prompt { fill: #38e8ff; }
+    .out { fill: #e6edf3; }
+    .hl { fill: #7ee787; }
+    .bracket { fill: none; stroke: #38e8ff; stroke-width: 2.5; stroke-linecap: square; }
+    .track { fill: #38e8ff; fill-opacity: .12; }
+    .fill { fill: #38e8ff; transform-box: fill-box; transform-origin: left center; animation: load 12s linear infinite; }
+    .r1 { animation: t1 12s infinite; }
+    .r2 { animation: t2 12s infinite; }
+    .r3 { animation: t3 12s infinite; }
+    .cur { fill: #7ee787; animation: blink 1s steps(1) infinite; }
+    @keyframes t1 { 0% { width: 0; animation-timing-function: steps(8); } 6% { width: 88px; } 94% { width: 88px; } 100% { width: 0; } }
+    @keyframes t2 { 0%, 7% { width: 0; animation-timing-function: steps(52); } 28% { width: 572px; } 94% { width: 572px; } 100% { width: 0; } }
+    @keyframes t3 { 0%, 30% { width: 0; animation-timing-function: steps(42); } 55% { width: 460px; } 94% { width: 460px; } 100% { width: 0; } }
+    @keyframes load { 0% { transform: scaleX(0); } 94% { transform: scaleX(1); } 100% { transform: scaleX(1); } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
 
-<g clip-path="url(#card)">
-  <rect width="1000" height="710" fill="url(#bg)"/>
-  <rect width="1000" height="710" fill="url(#grid)"/>
-  <circle class="glow1" cx="170" cy="120" r="150" fill="#58a6ff" fill-opacity=".28" filter="url(#blur)"/>
-  <circle class="glow2" cx="860" cy="560" r="170" fill="#bc8cff" fill-opacity=".26" filter="url(#blur)"/>
+  <rect width="800" height="230" fill="url(#bg)"/>
+  <rect width="800" height="230" fill="url(#grid)"/>
+  <rect x="10" y="10" width="780" height="210" fill="none" stroke="#38e8ff" stroke-opacity=".18"/>
 
-<g class="fade" style="--d:.1s">
-  <text x="40" y="95" class="name">Davron</text>
-  <text x="44" y="128" class="tag">Computer club tech support · self-taught developer</text>
-  <text x="44" y="152" class="handle">github.com/Mypatoff</text>
-</g>
-<g class="fade" style="--d:.3s">
-  <rect x="700" y="46" width="260" height="38" rx="19" fill="#ffffff" fill-opacity=".06" stroke="#7ee787" stroke-opacity=".45"/>
-  <g clip-path="url(#clipType)"><text x="716" y="70" class="mono term">$ now building ClubControl</text></g>
-  <rect class="cur" x="716" y="58" width="2.5" height="17"/>
-</g>
-<g class="fade" style="--d:0.35s"><rect x="40" y="172" width="215" height="82" rx="14" class="panel"/><rect x="40" y="196" width="4" height="34" rx="2" fill="#58a6ff"/><text x="60" y="212" class="big" fill="#58a6ff" style="fill:#58a6ff">5 yrs</text><text x="60" y="236" class="lbl">tech support for computer clubs</text></g>
-<g class="fade" style="--d:0.45s"><rect x="275" y="172" width="215" height="82" rx="14" class="panel"/><rect x="275" y="196" width="4" height="34" rx="2" fill="#7ee787"/><text x="295" y="212" class="big" fill="#7ee787" style="fill:#7ee787">2–3 yrs</text><text x="295" y="236" class="lbl">daily Linux + Windows</text></g>
-<g class="fade" style="--d:0.55s"><rect x="510" y="172" width="215" height="82" rx="14" class="panel"/><rect x="510" y="196" width="4" height="34" rx="2" fill="#bc8cff"/><text x="530" y="212" class="big" fill="#bc8cff" style="fill:#bc8cff">8</text><text x="530" y="236" class="lbl">public repos in ~6 months</text></g>
-<g class="fade" style="--d:0.65s"><rect x="745" y="172" width="215" height="82" rx="14" class="panel"/><rect x="745" y="196" width="4" height="34" rx="2" fill="#ffa657"/><text x="765" y="212" class="big" fill="#ffa657" style="fill:#ffa657">3</text><text x="765" y="236" class="lbl">languages spoken</text></g>
-<g class="fade" style="--d:0.8s"><rect x="40" y="275" width="286" height="255" rx="14" class="panel"/><rect x="58" y="297" width="4" height="16" rx="2" fill="#ffa657"/><text x="70" y="310" class="ptitle">Languages</text></g>
-<g class="fade" style="--d:0.90s"><text x="58" y="347" class="row">Uzbek</text><text x="308" y="347" text-anchor="end" class="lvl">Native</text><rect x="58" y="357" width="250" height="8" rx="4" class="track"/><rect class="bar" style="--d:1.10s" x="58" y="357" width="250.0" height="8" rx="4" fill="#ffa657"/></g>
-<g class="fade" style="--d:1.02s"><text x="58" y="405" class="row">English</text><text x="308" y="405" text-anchor="end" class="lvl">C1</text><rect x="58" y="415" width="250" height="8" rx="4" class="track"/><rect class="bar" style="--d:1.25s" x="58" y="415" width="208.3" height="8" rx="4" fill="#ffa657"/></g>
-<g class="fade" style="--d:1.14s"><text x="58" y="463" class="row">Russian</text><text x="308" y="463" text-anchor="end" class="lvl">B2</text><rect x="58" y="473" width="250" height="8" rx="4" class="track"/><rect class="bar" style="--d:1.40s" x="58" y="473" width="166.7" height="8" rx="4" fill="#ffa657"/></g>
-<g class="fade" style="--d:0.9s"><rect x="357" y="275" width="286" height="255" rx="14" class="panel"/><rect x="375" y="297" width="4" height="16" rx="2" fill="#58a6ff"/><text x="387" y="310" class="ptitle">Skills</text></g>
-<text x="375" y="337" class="sub fade" style="--d:1s">Comfortable</text>
-<g class="fade" style="--d:1.05s"><rect x="375" y="347" width="36" height="26" rx="13" fill="#7ee787" fill-opacity=".14" stroke="#7ee787" stroke-opacity=".55"/><text x="393.0" y="364.5" text-anchor="middle" class="chip" fill="#7ee787">Go</text></g>
-<g class="fade" style="--d:1.11s"><rect x="419" y="347" width="51" height="26" rx="13" fill="#7ee787" fill-opacity=".14" stroke="#7ee787" stroke-opacity=".55"/><text x="444.5" y="364.5" text-anchor="middle" class="chip" fill="#7ee787">HTML</text></g>
-<g class="fade" style="--d:1.17s"><rect x="478" y="347" width="44" height="26" rx="13" fill="#7ee787" fill-opacity=".14" stroke="#7ee787" stroke-opacity=".55"/><text x="500.0" y="364.5" text-anchor="middle" class="chip" fill="#7ee787">CSS</text></g>
-<g class="fade" style="--d:1.23s"><rect x="530" y="347" width="59" height="26" rx="13" fill="#7ee787" fill-opacity=".14" stroke="#7ee787" stroke-opacity=".55"/><text x="559.5" y="364.5" text-anchor="middle" class="chip" fill="#7ee787">Linux</text></g>
-<g class="fade" style="--d:1.29s"><rect x="375" y="380" width="125" height="26" rx="13" fill="#7ee787" fill-opacity=".14" stroke="#7ee787" stroke-opacity=".55"/><text x="437.5" y="397.5" text-anchor="middle" class="chip" fill="#7ee787">Windows repair</text></g>
-<text x="375" y="421" class="sub fade" style="--d:1.3s">Learning now</text>
-<g class="fade" style="--d:1.35s"><rect x="375" y="431" width="51" height="26" rx="13" fill="#ffa657" fill-opacity=".14" stroke="#ffa657" stroke-opacity=".55"/><text x="400.5" y="448.5" text-anchor="middle" class="chip" fill="#ffa657">Rust</text></g>
-<text x="375" y="472" class="sub fade" style="--d:1.45s">The basics</text>
-<g class="fade" style="--d:1.5s"><rect x="375" y="482" width="66" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/><text x="408.0" y="499.5" text-anchor="middle" class="chip" fill="#58a6ff">Python</text></g>
-<g class="fade" style="--d:1.56s"><rect x="449" y="482" width="36" height="26" rx="13" fill="#58a6ff" fill-opacity=".14" stroke="#58a6ff" stroke-opacity=".55"/><text x="467.0" y="499.5" text-anchor="middle" class="chip" fill="#58a6ff">C#</text></g>
-<g class="fade" style="--d:1.0s"><rect x="674" y="275" width="286" height="255" rx="14" class="panel"/><rect x="692" y="297" width="4" height="16" rx="2" fill="#bc8cff"/><text x="704" y="310" class="ptitle">Projects</text></g>
-<g class="fade" style="--d:1.10s"><text x="692" y="339" class="pname">ClubControl</text><text x="942" y="339" text-anchor="end" class="plang mono">C#</text><text x="692" y="355" class="pdesc">PC lock + billing for computer clubs</text></g>
-<g class="fade" style="--d:1.20s"><text x="692" y="376" class="pname">TimeTable</text><text x="942" y="376" text-anchor="end" class="plang mono">C#</text><text x="692" y="392" class="pdesc">School timetable generator</text></g>
-<g class="fade" style="--d:1.30s"><text x="692" y="413" class="pname">screentime</text><text x="942" y="413" text-anchor="end" class="plang mono">Python</text><text x="692" y="429" class="pdesc">Linux screen-time tracker</text></g>
-<g class="fade" style="--d:1.40s"><text x="692" y="450" class="pname">wasteless</text><text x="942" y="450" text-anchor="end" class="plang mono">Go</text><text x="692" y="466" class="pdesc">Local savings &amp; waste tracker</text></g>
-<g class="fade" style="--d:1.50s"><text x="692" y="487" class="pname">online-shop-management</text><text x="942" y="487" text-anchor="end" class="plang mono">Go</text><text x="692" y="503" class="pdesc">Offline shop app, one .exe or .sh</text></g>
-<g class="fade" style="--d:1.5s"><rect x="40" y="548" width="920" height="74" rx="14" class="panel"/><rect x="58" y="566" width="4" height="16" rx="2" fill="#7ee787"/><text x="70" y="579" class="ptitle">Achievements</text></g>
-<g class="fade" style="--d:1.60s"><circle cx="65" cy="601" r="7" fill="#7ee787" fill-opacity=".18" stroke="#7ee787"/><path d="M61.5 601 l2.7 2.8 l5 -5.6" fill="none" stroke="#7ee787" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="80" y="606" class="ach">ClubControl runs on real club hardware</text></g>
-<g class="fade" style="--d:1.72s"><circle cx="365" cy="601" r="7" fill="#7ee787" fill-opacity=".18" stroke="#7ee787"/><path d="M361.5 601 l2.7 2.8 l5 -5.6" fill="none" stroke="#7ee787" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="380" y="606" class="ach">Auto-builds, installers &amp; self-updating apps</text></g>
-<g class="fade" style="--d:1.84s"><circle cx="665" cy="601" r="7" fill="#7ee787" fill-opacity=".18" stroke="#7ee787"/><path d="M661.5 601 l2.7 2.8 l5 -5.6" fill="none" stroke="#7ee787" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="680" y="606" class="ach">Found and fixed a billing-bypass hole</text></g>
-<g class="fade" style="--d:1.9s"><text x="40" y="650" class="note">I build with AI (Claude Code) as my coding partner: I decide what the software must do, test it on real machines,</text><text x="40" y="670" class="note">and learn from the code as it gets written. I care most about software that keeps working when something goes wrong.</text></g>
-</g>
+  <!-- HUD corner brackets -->
+  <path class="bracket" d="M10 34V10H34"/>
+  <path class="bracket" d="M766 10H790V34"/>
+  <path class="bracket" d="M10 196V220H34"/>
+  <path class="bracket" d="M766 220H790V196"/>
+
+  <text x="40" y="44" class="label">// MYPATOFF . CLUB</text>
+  <text x="760" y="44" text-anchor="end" class="label">ONLINE</text>
+  <circle cx="772" cy="39" r="4" fill="#7ee787"/>
+
+  <g clip-path="url(#c1)"><text x="40" y="96"><tspan class="prompt">&gt;</tspan><tspan class="out" dx="11">whoami</tspan></text></g>
+  <g clip-path="url(#c2)"><text x="40" y="136" class="hl">Davron - computer club tech support, self-taught dev</text></g>
+  <g clip-path="url(#c3)"><text x="40" y="176"><tspan class="prompt">&gt;</tspan><tspan class="out" dx="11">now building:</tspan><tspan class="hl" dx="11">ClubControl for Windows 11</tspan></text></g>
+  <rect class="cur" x="40" y="190" width="11" height="3"/>
+
+  <rect class="track" x="40" y="206" width="720" height="3"/>
+  <rect class="fill" x="40" y="206" width="720" height="3"/>
 </svg>
