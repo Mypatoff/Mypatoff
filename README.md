@@ -1,4 +1,4 @@
-# Davron
+<img src="banner.svg" alt="Davron - computer club tech support, self-taught developer" width="100%">
 
 Computer club tech support for 5 years, now teaching myself to code by building the software I wish I'd had.
 
